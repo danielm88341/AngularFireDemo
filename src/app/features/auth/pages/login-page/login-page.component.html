@@ -1,0 +1,21 @@
+<div class="background">
+  <div class="text-container">
+    <h2>Hey Stranger</h2>
+    <p>
+      Want to create an awesome account to access this awesome app? Go ahead
+      and click the button below!
+    </p>
+    <button mat-button routerLink="/register">Sign up</button>
+  </div>
+
+<div class="form-container">
+
+  <h2>Email Login</h2>
+  <button class="mat-raised-button" (click)="loginWithGoogle()">
+    Sign In with Google
+  </button>
+  <h5>Sign in with your email</h5>
+  <app-login-form (formData)="login($event)"></app-login-form>
+
+</div>
+</div>
