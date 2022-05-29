@@ -23,7 +23,6 @@ mat-toolbar {
 
 .background {
   align-items: center;
-  background-image: url("/assets/mountains.png");
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
